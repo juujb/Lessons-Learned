@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  font-stretch: expanded;
+  line-height: 20px;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: lightgrey;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+}
+
+.links {
+  font-size: 28px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: antiquewhite;
+}
+
+main {
+  margin: 5%;
+}
+
+#sobre_mim {
+  width: 100%;
+}
+
+#minha_foto {
+  border-radius: 20%;
+  margin-left: 5%;
+  border: black 1px solid;
+}
+
+#listas {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: black 2px solid;
+  padding: 10px;
+  display: inline-block;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+li {
+  text-align: left;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 20%;
+  margin-left: 10%;
+  text-align: left;
+  vertical-align: top;
+  border: 2px black solid;
+  padding: 8px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 60%;
+  border: 2px black solid;
+  padding: 8px;
+}
+
+td , th {
+  border: 1px solid rgb(216, 214, 214);
+  text-align: left;
+  padding: 8px;
+}
+
+#rodape {
+  width: 100%;
+  font-size: small;
+  margin: 50px;
+}
